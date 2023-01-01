@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Big Roche</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <style>
+        body {
+            background-color: #000000;
+            color: #d8d8d8;
+            margin: 1rem;
+            text-align: center;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 1rem;
+        }
+
+        .weatherwidget-io {
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>BigRoche.com</h1>
+    <p><b>Home of the Big Roche-A-Cri Live lake cam</b></p>
+    <p>Please email any comments or questions to millsfamof6@gmail.com</p>
+
+    <!-- video player settings -->
+    <div class="video-container">
+        <iframe src="https://bigroche.cam/player.html" name="BigRocheCam" width="800"
+            height="600" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"
+            allowfullscreen="true">
+        </iframe>
+    </div>
+
+    <!-- weather widget -->
+    <a class="weatherwidget-io" href="https://forecast7.com/en/44d00n89d83/53934/?unit=us" data-label_1="Current lake Weather" data-font="Tinos" data-mode="Current" data-theme="dark"></a>
+    <script type="text/javascript" src="https://weatherwidget.io/js/widget.min.js"></script>
+</body>
+</html>
